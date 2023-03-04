@@ -15,6 +15,7 @@
 
 .banner-left-text {
   text-align: right;
+  margin-right: 35px;
 }
 
 .banner-left-text ul {
@@ -23,7 +24,7 @@
   align-items: right;
   justify-content: center;
   direction: rtl;
-  list-style: inside url(../images/check.png);
+  list-style-image: url(../images/check.png);
 }
 
 .banner-left-text ul li {
@@ -31,11 +32,12 @@
 }
 
 .banner-right-text {
+  margin-left: 35px;
   text-align: left;
 }
 
 .banner-right-text ul {
-  list-style: square inside url(../images/check.png);
+  list-style-image: url(../images/check.png);
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -62,17 +64,35 @@
 
 @media screen and (max-width: 768px) {
   .banner-container {
-    flex-direction: column;
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
   }
+
   .banner-row {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+  }
+
+  .banner-left-text {
     text-align: left;
+    margin-left: 35px;
+    margin-right: 0px;
+  }
+
+  .banner-left-text ul {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
     direction: ltr;
   }
-  .banner-left-text ul {
-    direction: ltr;
-    text-align: left;
+
+  .banner-left-text ul li {
+    margin: 5px;
   }
 }
