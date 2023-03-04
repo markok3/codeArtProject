@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;800&family=Karla:wght@500&family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;0,700;0,800;1,400;1,700;1,800&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+}

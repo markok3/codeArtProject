@@ -1,0 +1,70 @@
+.review-card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 400px;
+  height: 100%;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  text-align: left;
+  isolation: isolate;
+}
+
+#white {
+  background: #f1f0f5;
+}
+
+.review-card .bottom {
+  width: 100%;
+  border-width: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fa-star-checked {
+  color: yellow;
+  border-width: 5px;
+}
+
+.initials {
+  font-style: normal;
+  font-weight: 750;
+  color: green;
+}
+.review-card-background::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 90px;
+  height: 70px;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-image: url(../images/ReviewCardBackground.png);
+  opacity: 0.3;
+}
+
+.top {
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .review-card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 300px;
+    height: 100%;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    text-align: left;
+    isolation: isolate;
+  }
+}

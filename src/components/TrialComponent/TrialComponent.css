@@ -1,0 +1,143 @@
+.trial-container {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #549663;
+  color: white;
+  padding: 30px;
+  position: relative;
+  isolation: isolate;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin: 40px;
+  flex-wrap: wrap;
+}
+
+.trial-container::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background-image: url(../images/TrialVectorGreen.png);
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-position: 710px 200px;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.trial-body {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+
+.trial-header {
+}
+
+.trial-body-row1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.trial-body-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  margin: 20px;
+}
+
+.trial-body-image-overlay {
+  position: absolute;
+  right: 30px;
+  top: -10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* .product .product-image img {
+  max-height: 200px;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+}
+.product-image-overlay {
+  position: absolute;
+  left: 175px;
+  top: -10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 0px 0px 10px 10px;
+} */
+
+@media screen and (max-width: 768px) {
+  .trial-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+    background-color: #549663;
+    color: white;
+    padding: 30px;
+    position: relative;
+    isolation: isolate;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+
+    flex-wrap: wrap;
+  }
+  .trial-container::after {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-image: url(../images/TrialVectorGreen.png);
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: 710px 200px;
+    z-index: -1;
+    opacity: 0.2;
+  }
+  .trial-body {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+
+  .trial-header {
+  }
+  .trial-body-row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .trial-body-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    border-radius: 0px 0px 10px 10px;
+    margin: 20px;
+  }
+  .trial-body-image-overlay {
+    position: absolute;
+    right: 30px;
+    top: -10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 0px 0px 10px 10px;
+  }
+}

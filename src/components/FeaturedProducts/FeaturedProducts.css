@@ -1,0 +1,29 @@
+.heading h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  /* or 130% */
+
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.heading span {
+  color: #549663;
+  font-weight: 800;
+}
+
+.heading p {
+}
+
+.featuredProducts-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.featuredProducts {
+  margin-top: 10px;
+}

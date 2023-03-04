@@ -1,0 +1,52 @@
+.results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f0f5;
+  width: 100%;
+}
+.results-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
+  max-width: 1000px;
+}
+
+.results-grid-buy-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #ffd800;
+  border-radius: 15px;
+  width: 600px;
+  height: 80px;
+  font-size: 25px;
+  border: none;
+}
+
+.results-grid-buy-button:hover,
+.results-grid-buy-button:focus {
+  background: linear-gradient(180deg, #ffe600 0%, #ffc700 100%);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .results-grid-buy-button {
+    width: 90%;
+  }
+
+  .results-grid {
+    padding: 0;
+  }
+
+  .results-container {
+    padding: 20px;
+  }
+}

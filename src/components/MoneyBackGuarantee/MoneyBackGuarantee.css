@@ -1,0 +1,14 @@
+.money-back-guarantee {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 530px;
+  text-align: center;
+  margin: 15px;
+}
+
+.money-back-guarantee img {
+  width: 40px;
+  height: 40p;
+}
