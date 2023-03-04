@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/whole_harvest_website/static/css/main.1262b47d.css",
-    "main.js": "/whole_harvest_website/static/js/main.8b36cd84.js",
-    "static/media/SafeBannerBackground.jpg": "/whole_harvest_website/static/media/SafeBannerBackground.95979534a1ccf40b3b51.jpg",
-    "static/media/hero.png": "/whole_harvest_website/static/media/hero.8250d5312170a383ff2a.png",
-    "static/media/ProductBannerImage.png": "/whole_harvest_website/static/media/ProductBannerImage.4defbb83e9fca149e01d.png",
-    "static/media/ResultsCardImage.png": "/whole_harvest_website/static/media/ResultsCardImage.903039a2bdfbb427844f.png",
-    "static/media/ProductImageForList.png": "/whole_harvest_website/static/media/ProductImageForList.be7522821d212fc5f29b.png",
-    "static/media/Product.png": "/whole_harvest_website/static/media/Product.fe99f221630be30baf1a.png",
-    "static/media/TrialVectorGreen.png": "/whole_harvest_website/static/media/TrialVectorGreen.b28779d9d558876e377c.png",
-    "static/media/ProductSecurity.png": "/whole_harvest_website/static/media/ProductSecurity.f196b83e484adf32e8d4.png",
-    "index.html": "/whole_harvest_website/index.html",
-    "main.1262b47d.css.map": "/whole_harvest_website/static/css/main.1262b47d.css.map",
-    "main.8b36cd84.js.map": "/whole_harvest_website/static/js/main.8b36cd84.js.map"
+    "main.css": "/static/css/main.1211adb7.css",
+    "main.js": "/static/js/main.0fa8af30.js",
+    "static/media/SafeBannerBackground.jpg": "/static/media/SafeBannerBackground.95979534a1ccf40b3b51.jpg",
+    "static/media/hero.png": "/static/media/hero.8250d5312170a383ff2a.png",
+    "static/media/ProductBannerImage.png": "/static/media/ProductBannerImage.4defbb83e9fca149e01d.png",
+    "static/media/ResultsCardImage.png": "/static/media/ResultsCardImage.903039a2bdfbb427844f.png",
+    "static/media/ProductImageForList.png": "/static/media/ProductImageForList.be7522821d212fc5f29b.png",
+    "static/media/Product.png": "/static/media/Product.fe99f221630be30baf1a.png",
+    "static/media/TrialVectorGreen.png": "/static/media/TrialVectorGreen.b28779d9d558876e377c.png",
+    "static/media/ProductSecurity.png": "/static/media/ProductSecurity.f196b83e484adf32e8d4.png",
+    "index.html": "/index.html",
+    "main.1211adb7.css.map": "/static/css/main.1211adb7.css.map",
+    "main.0fa8af30.js.map": "/static/js/main.0fa8af30.js.map"
   },
   "entrypoints": [
-    "static/css/main.1262b47d.css",
-    "static/js/main.8b36cd84.js"
+    "static/css/main.1211adb7.css",
+    "static/js/main.0fa8af30.js"
   ]
 }
